@@ -128,7 +128,7 @@
   		<version>1.6.3</version>
   	</dependency>
   	<dependency>
-	  <groupId>cssparser1</groupId>
+	  <groupId>cssparser</groupId>
 	  <artifactId>parser</artifactId>
 	  <version>1.4</version>
 	</dependency>
