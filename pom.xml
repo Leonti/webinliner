@@ -117,11 +117,7 @@
 		</dependency>
 
 	<!-- Css inliner dependencies -->
-  	<dependency>
-  		<groupId>com.leonty</groupId>
-  		<artifactId>cssinliner</artifactId>
-  		<version>1.0</version>
-  	</dependency>
+
   	<dependency>
   		<groupId>org.jsoup</groupId>
   		<artifactId>jsoup</artifactId>
