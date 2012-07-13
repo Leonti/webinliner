@@ -197,7 +197,7 @@
     
 <repositories>
    <repository>
-     <id>nexus</id>
+     <id>leonty</id>
      <url>http://eleonti.com:8081/nexus/content/groups/public/</url>
      <releases><enabled>true</enabled></releases>
      <snapshots><enabled>true</enabled></snapshots>
