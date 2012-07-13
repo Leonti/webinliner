@@ -3,3 +3,6 @@
 # available.  Otherwise it will execute while your application is stopped
 # before the build step.  This script gets executed directly, so it
 # could be python, php, ruby, etc.
+
+mvn install:install-file -Dfile=../../webinliner/repo/parser-1.4.jar -DgroupId=cssparser -DartifactId=parser -Dversion=1.4 -Dpackaging=jar
+mvn install:install-file -Dfile=../../webinliner/repo/cssinliner-1.0.jar -DgroupId=com.leonty -DartifactId=cssinliner -Dversion=1.0 -Dpackaging=jar
