@@ -1,6 +1,6 @@
 <!doctype html>
 <head>
-	<title>Webinliner</title>
+	<title>WebInliner</title>
 	<link rel="stylesheet" href="resources/css/main.css">
 
 <body>
