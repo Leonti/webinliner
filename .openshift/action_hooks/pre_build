@@ -7,4 +7,4 @@
 echo "Installing local maven jars"
 
 mvn install:install-file -Dfile=../../webinliner/repo/parser-1.4.jar -DgroupId=cssparser -DartifactId=parser -Dversion=1.4 -Dpackaging=jar
-mvn install:install-file -Dfile=../../webinliner/repo/CSSinliner-1.0.jar -DgroupId=com.leonty -DartifactId=CSSInliner -Dversion=1.0 -Dpackaging=jar
+mvn install:install-file -Dfile=../../webinliner/repo/CSSInliner-1.0.jar -DgroupId=com.leonty -DartifactId=CSSInliner -Dversion=1.0 -Dpackaging=jar
