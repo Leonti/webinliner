@@ -4,6 +4,7 @@ public class EntryForm {
 
 	private String html;
 	private String css;
+	private Boolean removeClasses;
 	
 	public String getHtml() {
 		return html;
@@ -16,5 +17,11 @@ public class EntryForm {
 	}
 	public void setCss(String css) {
 		this.css = css;
+	}
+	public Boolean getRemoveClasses() {
+		return removeClasses;
+	}
+	public void setRemoveClasses(Boolean removeClasses) {
+		this.removeClasses = removeClasses;
 	}
 }

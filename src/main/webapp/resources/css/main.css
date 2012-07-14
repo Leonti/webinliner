@@ -1,3 +1,96 @@
-.entryInput {
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+html, body { 
+	height: 100%; 
+	width: 100%; 
+	margin: 0; 
+	color: rgb(76, 76, 76);
+	font-family: helvetica;
+}
+
+a, submit {
+	color: rgb(76, 76, 76);
+}
+
+#header .info {
+	position: absolute;
+	top: 0.5em;
+	left: 0.5em;
+	width: 7%;
+}
+
+#header .whatIsThis {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+#header .info .content {
+	display: none;
+	padding: 1em;
+}
+
+#header .info:hover {
+	width: 40%;
+}
+
+#header .info:hover .content {
+	display: block;
+	background: white;
 	border: 1px solid #ccc;
+}
+
+#header {
+	padding: 0.5em;
+	height: 5%;
+	position: relative;
+}
+
+#header .githubLink {
+	float: right;
+}
+
+#content {
+	height: 90%;
+}
+
+#content .centered {
+	width: 90%;
+	height: 100%;
+	margin: auto;
+}
+
+#content .centered label {
+	display: inline-block;
+	margin-top: 1em;
+}
+
+#content .centered textarea {
+	width: 99.6%;
+	height: 90%;
+	border: 1px solid #ccc;
+}
+
+#content .centered.entryForm textarea {
+	height: 40%;
+}
+
+#content .centered .submit {
+	float: right;
+	font-size: 170%;
+	padding: 0.1em 0.3em;
+	background-color: rgb(245, 245, 245);
+	border-width: 1px;
+	border-style: solid;
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+}
+
+#footer { 
+	height: 5%;
+	padding-top: 1em;
+}
+
+#footer .me {
+	text-decoration: none;
+	margin: auto;
+	display: table;
 }

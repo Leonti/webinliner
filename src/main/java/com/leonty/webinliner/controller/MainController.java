@@ -1,8 +1,5 @@
 package com.leonty.webinliner.controller;
 
-import java.text.DateFormat;
-import java.util.Date;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;
@@ -44,21 +41,16 @@ public class MainController {
 
 		logger.info("html: " + entryForm.getHtml());
 		logger.info("css: " + entryForm.getCss());
+		logger.info("remove classes: " + entryForm.getRemoveClasses());
 		
 		String html = "";
 		try {
-			html = CSSInliner.inlineCss("<body><div>Test</div></body>", "div { background: green; }", true);
+			html = CSSInliner.inlineCss(entryForm.getHtml(), entryForm.getCss(), entryForm.getRemoveClasses());
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		
-		Date date = new Date();
-		DateFormat dateFormat = DateFormat.getDateTimeInstance(DateFormat.LONG, DateFormat.LONG);
-		
-		String formattedDate = dateFormat.format(date);
-		
-		model.addAttribute("serverTime", formattedDate );
+
 		model.addAttribute("html", html);
 		
 		return "result";

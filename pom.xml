@@ -119,7 +119,7 @@
 	<!-- Css inliner dependencies -->
   	<dependency>
   		<groupId>com.leonty</groupId>
-  		<artifactId>cssinliner</artifactId>
+  		<artifactId>CSSInliner</artifactId>
   		<version>1.0</version>
   	</dependency>
   	<dependency>
