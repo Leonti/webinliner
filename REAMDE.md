@@ -11,6 +11,6 @@ v1.0 2012-08-10 Leonty Belskiy
 ##License
 
 Webinliner
-Copyright 2012 Leonty Belskiy, prishelec@gmail.com.
+Copyright 2012 Leonty Belskiy, prishelec[at]gmail.com.
 
 Licensed under the Apache License, Version 2.0
